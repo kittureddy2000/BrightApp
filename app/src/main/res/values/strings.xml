@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">All Apps</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="first_fragment">This is first fragment</string>
+    <string name="second_fragment">This is second fragment</string>
+    <string name="third_fragment">This is third fragment</string>
+    <string name="fourth_fragment">This is fourth fragment</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="CHANNEL_NAME">BrightApps Channel</string>
+    <string name="CHANNEL_DESC">Bright Apps</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_description">Enter Description</string>
+    <string name="enter_date">Enter Date</string>
+    <string name="enter_time">Enter Time</string>
+    <string name="title">Title</string>
+    <string name="list">List</string>
+
+    <string-array name="Alarm_array">
+        <item>Does not repeat</item>
+        <item>Daily</item>
+        <item>Weekly</item>
+        <item>Monthly</item>
+        <item>Yearly</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/todoCreateLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/dialog_start_margin"
+    android:layout_marginRight="@dimen/dialog_start_margin"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/todoEditTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:inputType="textCapSentences"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="16dp"
+        android:hint="@string/enter_name" />
+
+    <EditText
+        android:id="@+id/todoEditDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:inputType="textCapSentences"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="16dp"
+        android:hint="@string/enter_description" />
+
+    <TextView
+        android:id="@+id/todoEditDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="16dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+       android:clickable="true"
+        android:drawableStart="@drawable/ic_event_black_24dp"
+        android:hint="@string/enter_date" />
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="20dp"
+        android:background="#ff9703" />
+
+    <TextView
+        android:id="@+id/todoEditTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="16dp"
+        android:clickable="true"
+        android:drawableStart="@drawable/ic_alarm_black_24dp"
+        android:hint="@string/enter_time" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="20dp"
+        android:background="#ff9703" />
+
+    <Spinner
+        android:id="@+id/reccurent_spinner"
+        style="@style/Widget.AppCompat.Light.Spinner.DropDown.ActionBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:tooltipText="Select Reccurance" />
+
+
+</LinearLayout>
+
